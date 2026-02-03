@@ -5,7 +5,7 @@ acl {
     changePermissionsPrivilege = 'inherit'
     executePrivilege = 'inherit'
     modifyPrivilege = 'inherit'
-    readPrivilege = 'allow'
+    readPrivilege = 'deny'
   }
 
 }
