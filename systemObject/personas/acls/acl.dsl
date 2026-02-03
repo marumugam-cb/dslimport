@@ -4,7 +4,7 @@ acl {
   aclEntry 'group', principalName: 'Everyone', systemObjectName: 'personas', objectType: 'systemObject', {
     changePermissionsPrivilege = 'inherit'
     executePrivilege = 'inherit'
-    modifyPrivilege = 'allow'
+    modifyPrivilege = 'inherit'
     readPrivilege = 'allow'
   }
 
