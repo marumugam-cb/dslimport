@@ -32,7 +32,7 @@ acl {
   aclEntry 'user', principalName: 'project: EF-Utilities-3.0.1.2024020854', systemObjectName: 'projects', objectType: 'systemObject', {
     changePermissionsPrivilege = 'allow'
     executePrivilege = 'allow'
-    modifyPrivilege = 'allow'
+    modifyPrivilege = 'deny'
     readPrivilege = 'deny'
   }
 
