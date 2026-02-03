@@ -33,7 +33,7 @@ acl {
     changePermissionsPrivilege = 'allow'
     executePrivilege = 'allow'
     modifyPrivilege = 'allow'
-    readPrivilege = 'allow'
+    readPrivilege = 'deny'
   }
 
 }

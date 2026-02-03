@@ -40,7 +40,7 @@ acl {
     changePermissionsPrivilege = 'allow'
     executePrivilege = 'inherit'
     modifyPrivilege = 'allow'
-    readPrivilege = 'allow'
+    readPrivilege = 'deny'
   }
 
   aclEntry 'user', principalName: 'project: EC-Utilities', systemObjectName: 'resources', objectType: 'systemObject', {
